@@ -1,0 +1,19 @@
+.date_picker_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.date_picker_container input[type="datetime-local"],
+.date_picker_container input[type="text"]
+ {
+    padding: 10px;
+    font-size: 1.5rem;
+
+}
+.date_picker_container label {
+    font-size: 2rem;
+}
