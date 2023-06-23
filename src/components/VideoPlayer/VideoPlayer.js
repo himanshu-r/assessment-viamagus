@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 
-const Video = () => {
+const VideoPlayer = () => {
   const videos = [
     {
       id: 1,
@@ -121,4 +121,4 @@ const Video = () => {
   );
 };
 
-export default Video;
+export default VideoPlayer;
